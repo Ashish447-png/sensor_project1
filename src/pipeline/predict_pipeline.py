@@ -62,6 +62,14 @@ class PredictionPipeline:
 
             prediction_column_name :str = TARGET_COLUMN
             input_dataframe: pd.DataFrame = pd.read_csv(input_dataframe_path)
+            if "Unnamed: 0" in input_dataframe.columns:
+                 input_dataframe = input_dataframe.drop(columns=["Unnamed: 0"])
+
+            if "Good/Bad" in input_dataframe.columns:
+                input_dataframe = input_dataframe.drop(columns = ["Good/Bad"])
+
+           
+
 
             input_dataframe = input_dataframe.drop(columns="Unnamed: 0") if "Unnamed: 0" in input_dataframe.columns else input_dataframe
 
