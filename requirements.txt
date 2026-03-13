@@ -49,4 +49,5 @@ websockets
 Werkzeug
 xgboost
 zipp
+gunicorn
 # _e.
