@@ -1,10 +1,9 @@
 pandas
 numpy
-
 aiofiles
 dill==0.3.5.1
 dnspython==2.2.1
-database-connect==0.1.66
+
 evidently==0.1.58.dev0
 Flask==2.2.3
 httptools==0.5.0
@@ -26,5 +25,6 @@ xgboost==1.6.2
 neuro-mf==0.0.5
 boto3==1.26.105
 Werkzeug==2.2.2
+
 
 # -e.
