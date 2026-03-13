@@ -4,8 +4,8 @@ from src.logger import logging as lg
 import os,sys
 
 
-from src.pipeline.train_pipeline import TrainingPipeline # TraningPipeline connect with flask
-from src.pipeline.predict_pipeline import PredictionPipeline  # Predictionpipeline connect with flask
+from src.pipeline.train_pipeline import TrainingPipeline
+from src.pipeline.predict_pipeline import PredictionPipeline
 
 
 app = Flask(__name__)
@@ -66,4 +66,4 @@ def upload():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug= False)
+    app.run(host="0.0.0.0", port=5000, debug= True)
