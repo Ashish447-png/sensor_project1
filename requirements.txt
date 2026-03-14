@@ -19,4 +19,5 @@ websockets
 xgboost
 boto3
 Werkzeug
+scikit-learn==1.5.1
 # -e.
