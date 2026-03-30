@@ -16,9 +16,10 @@ conda create -p ./env python=3.13 -y
 
 ### to activate the environment
 conda activate ./env 
-#or 
+###or 
 source activate ./env
-Install dependencies:
+
+### Install dependencies:
 
 pip install -r requirements.txt
 
