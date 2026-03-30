@@ -16,8 +16,7 @@ conda create -p ./env python=3.13 -y
 
 ### to activate the environment
 conda activate ./env 
-###or 
-source activate ./env
+
 
 ### Install dependencies:
 
@@ -41,5 +40,5 @@ A dedicated database connection module is implemented to ensure a smooth and rel
 
 By leveraging MongoDB, the project ensures flexible schema design and efficient handling of large volumes of sensor data, which is essential for building robust fault detection models.
 
-streamlit run app.py
+
 
