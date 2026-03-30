@@ -1,4 +1,4 @@
-## My mechine Learning project
+## My machine Learning Sensor_fault_detection project
 ## problem statement --> 
   [sensor problem statement.pdf](https://github.com/user-attachments/files/26186893/sensor.problem.statement.pdf)
 
