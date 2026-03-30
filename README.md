@@ -8,7 +8,7 @@ To set up the project locally, follow these steps:
 
 ### 2.Clone the repository:
 
-git clone https://github.com/Ashish447-png/Myntra-Review-Scrapper.git
+git clone (https://github.com/Ashish447-png/sensor_project1.git)
 cd myntra-review-scraper
 ### 3.Create a new conda environment and activate it
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ### 5.Run the  application:
    python app.py
 
-Access the application in your web browser at http://localhost:8501.
+Access the application in your web browser at http://localhost:5000.
 
 
 
