@@ -13,7 +13,8 @@ git clone (https://github.com/Ashish447-png/sensor_project1.git)
 ### 3.Create a new conda environment and activate it
 
 conda create -p ./env python=3.13 -y
-#to activate the environment
+
+### to activate the environment
 conda activate ./env 
 #or 
 source activate ./env
